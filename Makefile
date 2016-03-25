@@ -36,6 +36,7 @@ $(OUT):
 
 doc:
 	@doxygen
+	firefox html/index.html &
 
 clean:
 	$(RM) $(EXEC) $(OBJS) $(deps)
