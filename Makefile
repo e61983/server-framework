@@ -10,7 +10,7 @@ OUT ?= .build
 all: $(OUT) $(EXEC)
 
 CC ?= gcc
-CFLAGS = -std=gnu99 -Wall -O2 -g -I .
+CFLAGS = -std=gnu99 -Wall -O2 -g -I . -g3
 LDFLAGS = -lpthread
 
 OBJS := \
